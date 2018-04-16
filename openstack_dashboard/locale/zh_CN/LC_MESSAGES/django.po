@@ -7862,3 +7862,554 @@ msgstr "vCPUs ="
 
 msgid "yes"
 msgstr "是"
+
+msgid "Crystal Controller"
+msgstr "奥思数据"
+
+msgid "Swift Cluster"
+msgstr "对象存储集群"
+
+msgid "Regions"
+msgstr "域"
+
+msgid "Create Region"
+msgstr "创建域"
+
+msgid "Zones"
+msgstr "区域"
+
+msgid "SSH Access"
+msgstr "SSH访问"
+
+msgid "Last Swift ping"
+msgstr "最近一次Ping检查"
+
+msgid "Create Zone"
+msgstr "创建区域"
+
+msgid "Nodes"
+msgstr "节点"
+
+msgid "Proxys"
+msgstr "Proxy节点"
+
+msgid "Swift Status"
+msgstr "服务状态"
+
+msgid "Storage Nodes"
+msgstr "存储节点"
+
+msgid "Storage Node"
+msgstr "存储节点"
+
+msgid "Devices"
+msgstr "设备"
+
+msgid "Storage Policies"
+msgstr "存储策略"
+
+msgid "Create Replication Policy"
+msgstr "创建副本策略"
+
+msgid "Create Storage Policy"
+msgstr "创建副本策略"
+
+msgid "Create EC Policy"
+msgstr "创建纠删码策略"
+
+msgid "Create EC Storage Policy"
+msgstr "创建纠删码策略"
+
+msgid "Monitoring"
+msgstr "监控"
+
+msgid "Swift Monitoring"
+msgstr "对象存储监控"
+
+msgid "Log in"
+msgstr "登录"
+
+msgid "Deprecated"
+msgstr "是否弃用"
+
+msgid "Deployed"
+msgstr "是否部署"
+
+msgid "Parameters"
+msgstr "参数"
+
+msgid "Default"
+msgstr "默认策略"
+
+msgid "Partiton Power"
+msgstr "分区幂指数"
+
+msgid "Num. Replicas"
+msgstr "副本数"
+
+msgid "EC Type"
+msgstr "纠删码类型"
+
+msgid "Num. Data Fragments"
+msgstr "数据分片数量"
+
+msgid "Num. Parity Fragments"
+msgstr "校验分片数量"
+
+msgid "Object Segment Size"
+msgstr "对象分片大小"
+
+msgid "The name of the new region."
+msgstr "新的域名称。"
+
+msgid "The name of the new zone."
+msgstr "新的区域的名称。"
+
+msgid "The name of the new policy."
+msgstr "新的存储策略名称。"
+
+msgid "Number of replicas"
+msgstr "副本数量"
+
+msgid "If the value is x the num of partitions will be 2^x"
+msgstr "如果值是x，分区的数量将是2 ^ x"
+
+msgid "Time between moving a partition more than once. In hours"
+msgstr "两次移动分区的最少时间间隔，以小时为单位。"
+
+msgid "Time"
+msgstr "时间"
+
+msgid "The total number of fragments that will be comprised of data."
+msgstr "构成数据的分片的总和。"
+
+msgid "The total number of fragments that will be comprised of parity."
+msgstr "奇偶校验分片的总和。"
+
+msgid "Is chosen from the list of EC backends supported by PyECLib"
+msgstr "从PyECLib支持的纠删码后端列表中选择。"
+
+msgid "The amount of data that will be buffered up before feeding a segment into the encoder/decoder."
+msgstr "在将分片发送到编码器/解码器之前将被缓冲的数据量。"
+
+msgid "EC Duplication enables Swift to make duplicated copies of fragments of erasure coded objects."
+msgstr "EC复制使Swift能够复制擦除编码对象片段的副本。"
+
+msgid "Manage Devices"
+msgstr "管理设备"
+
+msgid "Create Container"
+msgstr "创建容器"
+
+msgid "Storage Policy"
+msgstr "存储策略"
+
+msgid "Container Access"
+msgstr "容器权限"
+
+msgid "Private"
+msgstr "私有"
+
+msgid "The storage policy that you want to assign to the specific project."
+msgstr "您想要分配给特定项目的存储策略。"
+
+msgid "Edit Metadata"
+msgstr "编辑元数据"
+
+msgid "Add Metadata"
+msgstr "添加元数据"
+
+msgid "Update Container Metadata"
+msgstr "更新容器元数据"
+
+msgid "Update container"
+msgstr "更新容器"
+
+msgid "Object Count"
+msgstr "对象数量"
+
+msgid "Edit Storage Policy"
+msgstr "编辑存储策略"
+
+msgid "Update Node"
+msgstr "更新节点信息"
+
+msgid "SSH User name"
+msgstr "SSH用户名"
+
+msgid "SSH Password"
+msgstr "SSH密码"
+
+msgid "SDS Management"
+msgstr "SDS管理"
+
+msgid "Group Information"
+msgstr "组信息"
+
+msgid "Group projects"
+msgstr "组项目"
+
+msgid "Create a group"
+msgstr "创建一个组"
+
+msgid "Filters"
+msgstr "过滤器"
+
+msgid "Native Filters"
+msgstr "Native过滤器"
+
+msgid "DSL Name"
+msgstr "DSL名称"
+
+msgid "Main Class"
+msgstr "主类"
+
+msgid "HTTP Methods"
+msgstr "HTTP方法"
+
+msgid "HTTP Method"
+msgstr "HTTP方法"
+
+msgid "Execution Server"
+msgstr "执行服务器"
+
+msgid "Valid Parameters"
+msgstr "有效参数"
+
+msgid "Upload Native Filter"
+msgstr "上传Native过滤器"
+
+msgid "The name of the class that implements the Filters API."
+msgstr "实现了过滤器API的类的名称。"
+
+msgid "Storlet Filters"
+msgstr "Storlet过滤器"
+
+msgid "Upload Storlet Filter"
+msgstr "上传Storlet过滤器"
+
+msgid "Interface Version"
+msgstr "接口版本"
+
+msgid "Version"
+msgstr "接口版本"
+
+msgid "Policies"
+msgstr "策略"
+
+msgid "Static Policies"
+msgstr "静态策略"
+
+msgid "Dynamic Policies"
+msgstr "动态策略"
+
+msgid "Access Control"
+msgstr "访问控制"
+
+msgid "Bandwidth SLO's"
+msgstr "带宽SLO's"
+
+msgid "Object Types"
+msgstr "对象类型"
+
+msgid "Object Size"
+msgstr "对象大小"
+
+msgid "Object Tag"
+msgstr "对象标签"
+
+msgid "Object Type"
+msgstr "对象类型"
+
+msgid "Execution Order"
+msgstr "执行顺序"
+
+msgid "Target"
+msgstr "目标"
+
+msgid "Access Level"
+msgstr "访问级别"
+
+msgid "Level of access"
+msgstr "访问级别"
+
+msgid "Controllers"
+msgstr "控制器"
+
+msgid "Controller"
+msgstr "控制器"
+
+msgid "Create Controller"
+msgstr "创建控制器"
+
+msgid "Create Instance"
+msgstr "创建实例"
+
+msgid "Workload Metrics"
+msgstr "Workload指标"
+
+msgid "Metric Name"
+msgstr "指标名称"
+
+msgid "Class Name"
+msgstr "类名称"
+
+msgid "Upload Workload Metric"
+msgstr "上传Workload指标"
+
+msgid "Download"
+msgstr "下载"
+
+msgid "Restart Swift Proxy Node"
+msgid_plural "Restart Swift Proxy Node"
+msgstr[0] "重启Proxy节点"
+
+msgid "Restart Swift Storage Node"
+msgid_plural "Restart Swift Storage Node"
+msgstr[0] "重启存储节点"
+
+msgid "Delete Node"
+msgid_plural "Delete Node"
+msgstr[0] "删除节点"
+
+msgid "Delete Region"
+msgid_plural "Delete Region"
+msgstr[0] "删除域"
+
+msgid "Delete Zone"
+msgid_plural "Delete Zone"
+msgstr[0] "删除区域"
+
+msgid "Delete Storage Policy"
+msgid_plural "Delete Storage Policy"
+msgstr[0] "删除存储策略"
+
+msgid "Delete disks"
+msgid_plural "Delete disks"
+msgstr[0] "移除设备"
+
+msgid "Deploy Changes"
+msgid_plural "Deploy Changes"
+msgstr[0] "部署并修改"
+
+msgid "View Details"
+msgstr "详细信息"
+
+msgid "Delete Container"
+msgid_plural "Delete Container"
+msgstr[0] "删除容器"
+
+msgid "Select one"
+msgid_plural "Select one"
+msgstr[0] "请选择"
+
+msgid "Create Policy"
+msgstr "创建策略"
+
+msgid "Create SLO"
+msgstr "创建SLO"
+
+msgid "Create Object Type"
+msgstr "创建对象类型"
+
+msgid "Create Dynamic Policy"
+msgstr "创建动态策略"
+
+msgid "Create Policy (DSL)"
+msgstr "创建策略(DSL)"
+
+msgid "The main class of the metric module to be created."
+msgstr "将要被创建的指标模块中的主类。"
+
+msgid "The project where the rule will be apply."
+msgstr "将应用该规则的项目。"
+
+msgid "The container where the rule will be applied."
+msgstr "将应用该规则的容器。"
+
+msgid "The id of the filter which will be used."
+msgstr "将应用的过滤器的ID。"
+
+msgid "The type of object the rule will be applied to."
+msgstr "将应用该规则的对象的类型。"
+
+msgid "The size of object the rule will be applied to."
+msgstr "将应用该规则的对象的大小。"
+
+msgid "The metadata tag of object the rule will be applied to."
+msgstr "将应用该规则的对象元数据标签"
+
+msgid "The user or group where the rule will be applied."
+msgstr "将应用该规则的用户或组"
+
+msgid "User/Group"
+msgstr "用户/组"
+
+msgid "Storage Policy (Ring)"
+msgstr "存储策略(Ring)"
+
+msgid "The target project for this SLO."
+msgstr "这个SLO的目标项目。"
+
+msgid "The target storage policy for this SLO."
+msgstr "此SLO的目标存储策略。"
+
+msgid "GET Bandwidth"
+msgstr "GET请求带宽"
+
+msgid "PUT Bandwidth"
+msgstr "PUT请求带宽"
+
+msgid "The GET bandwidth that you want to assign to the specific project."
+msgstr "您想要分配给特定项目的GET请求的带宽。"
+
+msgid "The PUT bandwidth that you want to assign to the specific project."
+msgstr "您想要分配给特定项目的PUT请求的带宽。"
+
+msgid "A comma separated list of file extensions to include in this object type. Ex: doc, docx, xls, xlsx"
+msgstr "以逗号分隔的文件扩展名列表，以包含在此对象类型中。例如：doc，docx，xls，xlsx"
+
+msgid "Extensions"
+msgstr "扩展名"
+
+msgid "The class name of the controller to be created."
+msgstr "要创建的控制器的类名称。"
+
+msgid "Actions"
+msgstr "动作"
+
+msgid "Update Storage Policy"
+msgstr "更新存储策略"
+
+msgid "Add Device"
+msgstr "添加设备"
+
+msgid "Add Devices"
+msgstr "添加设备"
+
+msgid "Size Occupied"
+msgstr "已用容量"
+
+msgid "Total Size"
+msgstr "总共容量"
+
+msgid "Device Management"
+msgstr "设备管理"
+
+msgid "Update a Region"
+msgstr "更新域"
+
+msgid "Update Region"
+msgstr "更新"
+
+msgid "Update a Zone"
+msgstr "更新区域"
+
+msgid "Update Zone"
+msgstr "更新"
+
+msgid "Please select a row before taking that action."
+msgstr "请在采取该行动之前选择一项。"
+
+msgid "Copy"
+msgstr "复制"
+
+msgid "Delete Object"
+msgid_plural "Delete Object"
+msgstr[0] "删除对象"
+
+msgid "Delete Objects"
+msgid_plural "Delete Objects"
+msgstr[0] "删除对象"
+
+msgid "Create Pseudo-folder"
+msgstr "创建目录"
+
+msgid "Upload Object"
+msgstr "上传对象"
+
+msgid "Please confirm your selection."
+msgstr "请确认您的选择。"
+
+msgid "Object Name"
+msgstr "对象名称"
+
+msgid "Update Object"
+msgstr "更新对象"
+
+msgid "Destination container"
+msgstr "目标容器"
+
+msgid "Path"
+msgid_plural "Path"
+msgstr[0] "路径"
+
+msgid "Destination object name"
+msgstr "目标对象名称"
+
+msgid "Copy Object"
+msgstr "复制对象"
+
+msgid "Object Details"
+msgstr "对象详细信息"
+
+msgid "Hash"
+msgstr "Hash值"
+
+msgid "Last Modified"
+msgstr "最后修改时间"
+
+msgid "Content Type"
+msgstr "内容类型"
+
+msgid "Edit Object"
+msgstr "编辑对象"
+
+msgid "Pseudo-folder Name"
+msgstr "目录名称"
+
+msgid "Copy Object:"
+msgstr "复制对象："
+
+msgid "A new uploaded file will replace the content of the current object"
+msgstr " "
+
+msgid "File:"
+msgstr " "
+
+msgid "Object:"
+msgstr " "
+
+msgid "An object is the basic storage entity that represents a file you store in the OpenStack Object Storage system. When you upload data to OpenStack Object Storage, the data is stored as-is (no compression or encryption) and consists of a location (container), the object's name, and any metadata consisting of key/value pairs."
+msgstr " "
+
+msgid "Make a new copy of an existing object to store in this or another container. You may additionally specify the path within the selected container where the new copy should be stored."
+msgstr " "
+
+msgid "Within a container you can group your objects into pseudo-folders, which behave similarly to folders in your desktop operating system, with the exception that they are virtual collections defined by a common prefix on the object's name. A slash (/) character is used as the delimiter for pseudo-folders in the Object Store."
+msgstr " "
+
+msgid "Pseudo-folder:"
+msgstr " "
+
+msgid "Device Assignment"
+msgstr "设备分配"
+
+msgid "Create pseudo-folder in container "
+msgstr "在容器内创建目录"
+
+msgid "Upload Object To Container: "
+msgstr "上传对象到容器"
+
+msgid " <br>Storage policies allow segmenting the cluster for various purposes through the creation of multiple object rings. Using policies, different devices can belong to different rings with varying levels of replication. By supporting multiple object rings, swift can segregate the objects within a single cluster."
+msgstr " "
+
+msgid "A container is a storage compartment for your data and provides a way for you to organize your data. You can think of a container as a folder in Windows &reg; or a directory in UNIX &reg;. The primary difference between a container and these other file system concepts is that containers cannot be nested. You can, however, create an unlimited number of containers within your account. Data must be stored in a container so you must have at least one container defined in your account prior to uploading data."
+msgstr " "
+
+msgid "Note: A Public Container will allow anyone with the Public URL to gain access to your objects in the container."
+msgstr " "
+
+msgid "Openstack Swift Regions."
+msgstr "创建对象存储域。"
+
